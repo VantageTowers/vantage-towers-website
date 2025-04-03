@@ -1,135 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vantage Towers Pte Ltd</title>
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vantage Towers</title>
+    <!-- Link to your Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vantage Towers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- PASTE NAVIGATION BAR HERE (starts below this line) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Vantage Towers</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- NAVIGATION BAR ENDS HERE -->
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h1 class="display-4">Welcome to Vantage Towers</h1>
+        <p class="lead">Your professional website is ready for customization.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature One</h5>
+                        <p class="card-text">Example content section.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature Two</h5>
+                        <p class="card-text">Another content section.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- PASTE HERO SECTION HERE -->
-    <header class="jumbotron jumbotron-fluid bg-light">
-        <div class="container text-center">
-            <h1 class="display-4">Vantage Towers Pte Ltd</h1>
-            <p class="lead">Your trusted partner in [your industry]</p>
-        </div>
-    </header>
-    <!-- HERO SECTION ENDS HERE -->
-
-    <!-- PASTE SERVICES SECTION HERE -->
-    <section id="services" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Service 1</h5>
-                            <p class="card-text">Description of your first service offering.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Service 2</h5>
-                            <p class="card-text">Description of your second service offering.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Service 3</h5>
-                            <p class="card-text">Description of your third service offering.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SERVICES SECTION ENDS HERE -->
-
-    <!-- PASTE ABOUT US SECTION HERE -->
-    <section id="about" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">About Vantage Towers</h2>
-            <p>Your company description here. Explain what makes your company special.</p>
-        </div>
-    </section>
-    <!-- ABOUT US SECTION ENDS HERE -->
-
-    <!-- PASTE CONTACT SECTION HERE -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Contact Us</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <h5>Our Office</h5>
-                    <p>123 Business Park, Singapore 123456</p>
-                    <p>Phone: +65 6123 4567</p>
-                    <p>Email: info@vantagetowers.com</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- CONTACT SECTION ENDS HERE -->
-
-    <!-- PASTE FOOTER HERE -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p>&copy; 2023 Vantage Towers Pte Ltd. All rights reserved.</p>
-        </div>
-    </footer>
-    <!-- FOOTER ENDS HERE -->
-
-    <!-- jQuery first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
